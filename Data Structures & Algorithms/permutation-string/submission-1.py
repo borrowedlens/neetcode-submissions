@@ -9,7 +9,6 @@ class Solution:
             sub_f = defaultdict(int)
             for i in range(l, r + 1):
                 sub_f[s2[i]] += 1
-            print(s1_f, sub_f)
             if s1_f == sub_f:
                 return True
             l += 1
